@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
   - image: nginx
-    name: app
+    name: app2
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always
