@@ -5,11 +5,12 @@ metadata:
   namespace: default
   labels:
     run: app
+    newlab: valuelabel
   name: app
 spec:
   containers:
   - image: nginx
-    name: app2
+    name: app
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always
