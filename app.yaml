@@ -5,7 +5,7 @@ metadata:
   namespace: default
   labels:
     run: app
-    newlab: valuelabel
+    newlab: valuelabe2
   name: app
 spec:
   containers:
