@@ -4,7 +4,6 @@ metadata:
   name: {{ include "result.fullname" . }}
   labels:
     {{- include "result.labels" . | nindent 4 }}
-    - labelname: testamar
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
